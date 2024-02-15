@@ -1,0 +1,236 @@
+.cartPage {
+    padding-top: 10px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.cartPage .container {
+    position: relative;
+}
+
+.shopping {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.selectedItem {
+    width: 69%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+
+.productItem {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.top {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.delLike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}
+
+
+.delLike button {
+    width: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.selectedItem img {
+    width: 250px;
+}
+
+.shoppingBag {
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shopInfo {
+    width: 30%;
+    position: absolute;
+    top: 145px;
+    right: 2px;
+}
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    padding: 20px;
+    background-color: white;
+}
+
+.all .p1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+
+}
+
+.all .p2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.all .promo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding: 20px 0;
+}
+
+.all .promo p {
+    margin-top: 10px;
+}
+
+.inputPromo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.all .promo .inputPromo input {
+    padding: 15px;
+    width: 240px;
+    border: 1px solid black;
+}
+
+.buttonPromo {
+    padding: 15px;
+    width: 100px;
+}
+
+.totalAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.all .totalAll .Total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm p {
+    font-size: 11px;
+}
+
+.confirm button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.confirm button:hover {
+    background-color: rgb(77, 74, 74);
+    transition: 1s all ease-in-out;
+}
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards img {
+    width: 15%;
+    height: 20px;
+}
+
+.cards img:nth-child(2) {
+    width: 10%;
+    height: 30px;
+}
+
+.cards img:nth-child(3) {
+    width: 30%;
+    height: 40px;
+}
+
+.delivery {
+    width: 30%;
+    position: absolute;
+    top: 680px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    padding: 20px;
+    background-color: white;
+}
+
+.considered {
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.delivery p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

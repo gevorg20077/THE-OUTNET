@@ -1,0 +1,395 @@
+.menu {
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 200;
+    position: sticky;
+    top: 0;
+}
+
+.WebInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.LangLog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.log::after {
+    content: "";
+    border-right: 1px solid rgb(195, 195, 195);
+    padding: 0 10px;
+
+}
+
+
+
+.lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 0 15px;
+}
+
+.after::after {
+    content: "";
+    border-right: 1px solid rgb(195, 195, 195);
+    padding: 0 5px;
+}
+
+.after:hover {
+    text-decoration: underline;
+}
+
+
+.InfoHelp {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.MainMenu {
+    width: 100%;
+    position: sticky;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.topMenu .Fav_Cart {
+    position: absolute;
+    right: 240px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cart {
+    position: relative;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart .ItemNumber {
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    color: white;
+    top: -10px;
+    right: -10px;
+}
+
+.topMenu .title {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.a {
+    padding: 0 30px;
+}
+
+.bottomMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid rgb(198, 198, 198);
+
+}
+
+.search {
+    width: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.searchButton {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    right: 0;
+    padding: 10px;
+}
+
+.JustIn .JustInInfo {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.ShopBy .ShopByInfo {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bestsellers .BestsellersInfo {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Designer .DesignerInfo {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clothing .ClothingInfo {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.Shoes .ShoesInfo {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.JustIn:hover .JustInInfo {
+    display: flex;
+}
+
+.ShopBy:hover .ShopByInfo {
+    display: flex;
+}
+
+.Bestsellers:hover .BestsellersInfo {
+    display: flex;
+}
+
+.Designer:hover .DesignerInfo {
+    display: flex;
+}
+
+.Clothing:hover .ClothingInfo {
+    display: flex;
+}
+
+.Shoes:hover .ShoesInfo {
+    display: flex;
+}
+
+.containerInfo {
+    width: 50%;
+}
+
+.justIn {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.justInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.JustTop {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.justTopH1 {
+    width: 150px;
+    border-bottom: 1px solid grey;
+}
+
+.justTop2H1 {
+    width: 200px;
+    border-bottom: 1px solid grey;
+
+}
+
+.justImage {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.img1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.justImage .img1 img {
+    width: 100%;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.clothings {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.subscribe-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cccccc63;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.subscribe,
+.shop,
+.app-download {
+    flex: 1;
+    border-radius: 5px;
+    position: relative;
+}
+
+.app-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.subscribe::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 20px;
+    background-color: rgb(195, 195, 195);
+}
+
+.shop::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 20px;
+    background-color: rgb(195, 195, 195);
+}
+
+.app-download::after {
+    display: none;
+}
+
+.phone-icon {
+    background-color: transparent;
+    border: none;
+
+}

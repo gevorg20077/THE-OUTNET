@@ -1,0 +1,65 @@
+.ClothsFooter {
+    width: 70%;
+}
+
+.clothes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.clothes .clothe {
+    width: 28%;
+    height: 480px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.clothe .title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.clothe .description {
+    font-size: 14px;
+}
+
+.clothes .clothe img {
+    height: 300px;
+}
+
+.pageCount {
+    padding: 5px;
+    border: 1px solid #b4b4b4;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pageCount:hover {
+    background-color: #f2f2f2;
+
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+}
+
+
+

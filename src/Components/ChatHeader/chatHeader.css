@@ -1,0 +1,142 @@
+.openChat .chatHeader {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 195px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    z-index: 800;
+}
+
+.openChat .chatHeader .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.openChat .chatHeader .icons p {
+    cursor: pointer;
+}
+
+.openChat .chatHeader .icons .arrowDown {
+    width: 20px;
+    height: 16px;
+    background-color: white;
+}
+
+.openChat .chatHeader .icons img {
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    border: none;
+    position: absolute;
+}
+
+.chatMenu{
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    color: gray;
+    border:  1px solid rgb(230, 230, 230);
+    box-shadow: 0 0 10px rgb(174, 174, 174);
+    border-radius: 14px;
+    right: 20px;
+    bottom: 330px;
+}
+
+.chatMenu ul{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 160px;
+    padding-top: 12px;
+}
+
+.chatMenu ul li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.chatMenu ul li a{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: auto;
+}
+
+.chatMenu ul li:hover{
+    background-color: rgb(244, 243, 243);
+}
+
+.chatMenu .person{
+    margin-top: 14px;
+    border-top: 1px solid rgb(230, 230, 230);
+    text-align: center;
+    font-size: 8px;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatMenu p b{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.clear{
+    width: 340px;
+    height: 545px;
+    background-color: white;
+    position: absolute;
+    right: -21px;
+    bottom: -331px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.clear .text1{
+    font-size: 16px;
+}
+
+.clear .text2{
+    font-size: 14px;
+    color: black;
+}
+
+.clear .buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.clear .buttons button{
+    padding: 10px 50px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.clear .buttons .no{
+    background-color: white;
+    color: gray;
+}
+
+.clear .buttons .yes{
+    background-color: black;
+    color: white;
+}

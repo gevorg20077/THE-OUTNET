@@ -1,0 +1,293 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+aside .filter {
+    padding: 35px 0;
+    border-top: 1px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+aside .filter .text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside .filter .text span {
+    color: gray;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+aside .filter button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+aside .filter .checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside .filter .checkboxes .checkbox {
+    display: flex;
+    gap: 20px;
+}
+
+aside .filter .checkboxes .checkbox .check {
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 50%;
+}
+
+aside .filter .checkboxes .checkbox .checked{
+    border: 6px solid black;
+    background-color: white;
+}
+
+aside .filter .checkboxes .checkbox p{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+aside .filter .text input{
+    z-index: 100;
+}
+
+aside .filter p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside .filter .priceText{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+}
+
+aside .filter .range{
+    position: absolute;
+    top: 80px;
+    width: 320px;
+}
+
+aside .filter .text{
+    width: 100%;
+}
+
+.graytext{
+    color: rgb(213, 213, 213);
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: dotted;
+    text-decoration: underline;
+}
+
+.color{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.color .item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.color .item input{
+    width: 20px;
+    height: 20px;
+}
+
+.color .item .square{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d3d3d3;
+}
+
+.color .item p{
+    font-size: 13px;
+}
+
+aside .clothingSize .clo>p{
+    padding: 10px 0;
+}
+
+aside .clothingSize div .checks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+aside .clothingSize div .checks .check{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+aside .clothingSize div .checks .check input{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+aside .clothingSize div .checks .check p{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+aside .clothingSize .int{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.unselect{
+    color: rgb(212, 210, 210);
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: dotted;
+    text-decoration: underline;
+}
+
+aside .collarSize .size{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside .collarSize .size .check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+aside .collarSize .inches{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+aside .collarSize .size .check input{
+    width: 20px;
+    height: 20px;
+}
+
+aside .collarSize .size .check p{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+aside .consuidered .consuider{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside .consuidered .consuider .check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+aside .consuidered .consuider .check input{
+    width: 20px;
+    height: 20px;
+}
+
+aside .consuidered .consuider .check p{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+aside .fabric{
+    border-bottom: 1px solid #d3d3d3;
+    height: 300px;
+}
+
+aside .fabric .text{
+    background-color: white;
+}
+
+aside .fabric .fab{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 208px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+aside .fabric .fab>p{
+    padding: 6px 0;
+}
+
+aside .fabric .fab .check{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+aside .fabric .fab .check input{
+    width: 20px;
+    height: 20px;
+}
+
+aside .fabric .fab .check p{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+aside .fabric .fab .last{
+    margin-bottom: 30px;
+}
+
+
+
+input[type=range] {
+    width: 100%;
+    -webkit-appearance: none;
+    margin: 10px 0;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 10px;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    /* box-shadow: 1px 1px 1px #000031; */
+    border: 1px solid #00001E;
+    height: 22px;
+    width: 22px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6px;
+}

@@ -1,0 +1,39 @@
+.chat{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.closeChat {
+    cursor: pointer;
+    background-color: black;
+    width: 340px;
+    height: 35px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 100;
+}
+
+.closeChat .text {
+    color: white;
+}
+
+.closeChat .icons {
+    display: flex;
+}
+
+.closeChat .icons .iconChat1 {
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.closeChat .icons .iconChat2 {
+    color: white;
+    margin-left: -8px;
+    margin-top: 25px;
+}

@@ -1,0 +1,95 @@
+.selectedClothe {
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.showImages {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    
+}
+
+.selectedClothe .showImages img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.selectedClothe .showImages img:hover {
+    opacity: 1;
+}
+
+.imgs {
+    display: flex;
+    width: 50%;
+    height: 500px;
+}
+
+.mainImages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImages  img {
+    width: 100%;
+}
+
+.Clothe{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.infos{
+    width: 50%;
+    padding: 10px;
+    height: 700px;
+   
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: white;
+    border:1px solid lightgray
+}
+.finaly2 button{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 900;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    
+}
+.finaly2 button p{
+    margin-left:140px ;
+}
+.finaly1 button{
+    width: 500px;
+    height: 40px;
+    background-color: black;
+    color: white; 
+    font-size: 17px;
+    font-weight: 900;
+}
+.finaly1 button:hover{
+    background-color: rgb(79, 78, 78);
+}
+.finaly2 button:hover{
+    border: 1px solid black;
+}

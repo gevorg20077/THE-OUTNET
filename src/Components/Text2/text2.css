@@ -1,0 +1,11 @@
+.text2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text2 p{
+    width: 710px;
+    text-align: center;
+}

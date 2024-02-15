@@ -1,0 +1,87 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.messages .message>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.messages .message img{
+    width: 150px;
+    margin-left: 170px;
+}
+
+.messages .message .question {
+    position: relative;
+}
+
+.messages .message .question .text {
+    position: absolute;
+    right: 0px;
+}
+
+.messages .message .answer {
+    margin-top: 30px;
+    border-radius: 6px;
+    max-width: 200px;
+}
+
+.messages .message .question p {
+    padding: 6px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.messages .message .answer p{
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 100;
+    display: inline-block;
+    background-color: #cccccc;
+}
+
+.messages .message {
+    position: relative;
+}
+
+.messages .message .question .triangle {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 10px solid white;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    right: -7px;
+    bottom: 11px;
+    z-index: 10;
+}
+
+.messages .message .question .triangleBorder {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 10px solid #d3d3d3;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    right: -9px;
+    bottom: 11px;
+}
+
+.messages .message .answer .trianglе {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 7px solid #cccccc;
+    border-bottom: 6px solid transparent;
+    margin-top: -19px;
+    margin-left: -5px;
+    position: absolute;
+}

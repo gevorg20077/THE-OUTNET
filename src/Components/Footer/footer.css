@@ -1,0 +1,161 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid grey;
+  padding: 30px;
+
+}
+
+.Footer1 {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+
+.Footer2 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  gap: 15px;
+}
+
+
+.Footer2 p,
+.Footer3 p {
+  font-size: 14px;
+}
+
+.Footer2 p:hover,
+.Footer3 p:hover {
+  text-decoration: underline;
+}
+
+.Footer3 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  right: 0;
+  top: 42px;
+  padding: 0 50px;
+
+}
+
+.Footer4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 50px;
+  margin-left: 100px;
+}
+
+.Footer4 p {
+  font-size: 14px;
+
+}
+
+.mail {
+  display: flex;
+  gap: 10px;
+  width: 400px;
+}
+
+.mail input {
+  width: 75%;
+  padding: 5px;
+  border: 1px solid rgb(167, 167, 167);
+}
+
+.mail input:hover {
+  border: 1px solid rgb(233, 233, 233);
+
+}
+
+.mail button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(167, 167, 167);
+  padding: 10px;
+}
+
+.mail button:hover {
+  border: 1px solid black;
+
+}
+
+
+.infoFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer5 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Footer7 {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.SocialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.customerCare{
+  text-decoration: underline;
+}
+
+.carts{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.carts img{
+  width: 15%;
+  height: 20px;
+}
+
+.carts img:nth-child(2){
+  width: 10%;
+  height: 30px;
+}
+
+.carts img:nth-child(3){
+  width: 30%;
+  height: 40px;
+}
+
+.Footer8{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 30px 100px;
+  border-top: 1px solid grey;
+}
+
+.Footer9{
+  width: 50%;
+  display: flex;
+  gap: 120px;
+}
+
+.Footer10{
+  width: 50%;
+  display: flex;
+  font-size: 14px;
+  text-align: end;
+}
+

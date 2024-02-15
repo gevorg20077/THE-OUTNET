@@ -1,0 +1,65 @@
+.aboutParents>p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutParents .items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.aboutParents .items .aboutItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 920px;
+    width: 440px;
+}
+
+.aboutParents .items .aboutItem p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.aboutParents .items .aboutItem p:nth-child(2){
+    height: 5px;
+}
+
+.aboutParents .items .aboutItem img{
+    width: 100%;
+}
+
+.aboutParents .items .aboutItem button{
+    width: 265px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .2s all;
+    letter-spacing: 1px;
+}
+
+.aboutParents .items .aboutItem button:hover{
+    background-color: black;
+    color: white;
+}
+
+.withoutImage{
+    height: 250px !important;
+    margin-top: -40px;
+    line-height: 20px;
+}
+
+.withoutImage p{
+    height: 20px !important;
+    margin: 10px;
+}
+
+.withoutImage button{
+    margin-top: 18px !important;
+}
