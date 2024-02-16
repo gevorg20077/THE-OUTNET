@@ -35,8 +35,6 @@
 
 }
 
-
-
 .lang {
     display: flex;
     align-items: center;
@@ -91,9 +89,8 @@ ul {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
-
 }
 
 .topMenu .Fav_Cart {
