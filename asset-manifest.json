@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/THE-OUTNET/static/css/main.5bdcbcb2.css",
+    "main.js": "/THE-OUTNET/static/js/main.66500151.js",
+    "static/media/video1.mov": "/THE-OUTNET/static/media/video1.35c4157b5bcb886257d2.mov",
+    "static/media/w1500_q80 (1).avif": "/THE-OUTNET/static/media/w1500_q80 (1).9deb2a120c5f6eaf63c0.avif",
+    "static/media/red.avif": "/THE-OUTNET/static/media/red.5a15c43938a83a3842ec.avif",
+    "static/media/w1500_q80 (4).avif": "/THE-OUTNET/static/media/w1500_q80 (4).da2e11e6cdef8ce2a416.avif",
+    "static/media/w1500_q80.jpg": "/THE-OUTNET/static/media/w1500_q80.05693ace0aeaf8ef0a54.jpg",
+    "static/media/w1500_q80.avif": "/THE-OUTNET/static/media/w1500_q80.da27dfd0d1553cdab6e1.avif",
+    "static/media/w1500_q80 (2).avif": "/THE-OUTNET/static/media/w1500_q80 (2).42190d0eab3ef613098c.avif",
+    "static/media/w1500_q80 (3).avif": "/THE-OUTNET/static/media/w1500_q80 (3).de1d6036c9b7d7d8f361.avif",
+    "static/media/w1500_q80 (5).avif": "/THE-OUTNET/static/media/w1500_q80 (5).7497fe50b7dbbcea9a28.avif",
+    "index.html": "/THE-OUTNET/index.html",
+    "main.5bdcbcb2.css.map": "/THE-OUTNET/static/css/main.5bdcbcb2.css.map",
+    "main.66500151.js.map": "/THE-OUTNET/static/js/main.66500151.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bdcbcb2.css",
+    "static/js/main.66500151.js"
+  ]
+}
