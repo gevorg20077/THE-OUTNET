@@ -24,7 +24,6 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch src/server/DB.json -p 5003"
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -42,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
